@@ -10,8 +10,7 @@ void main() {
       ),
       body: Body(),
     ),
-  )
-  );
+  ));
 }
 
 class Body extends StatelessWidget {
