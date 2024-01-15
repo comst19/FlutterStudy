@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'game/game_body.dart';
 
 void main() {
-  runApp(const RPSApp());
+  runApp(const RSPApp());
 }
 
-class RPSApp extends StatelessWidget {
-  const RPSApp({super.key});
+class RSPApp extends StatelessWidget {
+  const RSPApp({super.key});
 
   // This widget is the root of your application.
   @override
@@ -15,7 +15,7 @@ class RPSApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('가위 바위 보!'),
+            title: const Text('가위 바위 보!')
         ),
         body: const GameBody(),
       ),
