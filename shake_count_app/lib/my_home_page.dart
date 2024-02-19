@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shake/shake.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -92,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
           children: <Widget>[
             const Text(
               '흔들어서 카운트를 올려보세요',
-            ),
+            ).pSymmetric(h: 20, v:50),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.displayLarge,
